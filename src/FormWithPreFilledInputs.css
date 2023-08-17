@@ -1,0 +1,39 @@
+/* FormWithPreFilledInputs.css */
+
+label {
+  display: flex;
+
+  align-items: left;
+  margin-right: 10px;
+  text-align: left;
+  font-weight: bold;
+  flex-shrink: 0; /* Prevent the label from shrinking */
+}
+
+.input-field {
+  flex: 1; /* Expand to fill the available space */
+}
+
+input {
+  display: flex;
+  margin-top: 1px;
+  margin-bottom: 8px;
+  margin-right: 200px;
+  align-items: left;
+  background-color: #f0f0f0; /* Light grey color */
+  /* Show a "not-allowed" cursor on hover */
+  width: 98%;
+}
+.radio-options {
+  display: flex;
+  align-items: center;
+  margin: 1px;
+  padding-top: 2px;
+}
+
+.radio-options label {
+  display: flex;
+  align-items: left;
+  margin: 8px;
+  padding: top 2;
+}
